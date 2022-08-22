@@ -1,0 +1,27 @@
+.gallery-item {
+    display: flex;
+    min-width: 300px;
+    min-height: 300px;
+    width: 30vw;
+    height: 30vw;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 20px 3px;
+}
+
+.gallery-item .media-container {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-item img,
+.gallery-item video {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-item .favbtn {
+    width: 100%;
+    height: 30px;
+}
